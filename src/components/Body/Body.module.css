@@ -1,0 +1,41 @@
+.wrapper {
+  max-width: var(--wrappers-width);
+  background-color: var(--wrappers-bg-color);
+  position: relative;
+  border: 1px tomato solid;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  padding: var(--wrappers-paddings);
+}
+.title {
+  text-align: center;
+}
+
+.subTitle {
+  text-align: left;
+  color: gray;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.descriptionTitle {
+}
+
+.slider {
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.line {
+  display: block;
+  margin: 20px 0px;
+  height: 6px;
+  width: 30%;
+  background: linear-gradient(to right, brown 0%, white 70%);
+  /* background-position-x: center; */
+}

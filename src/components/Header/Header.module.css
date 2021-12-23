@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@400;700&display=swap");
+
+.header__wrapper {
+  z-index: 1;
+  position: fixed;
+  width: var(--wrappers-width);
+  top: 0;
+  left: 50%;
+  transform: translateX(var(--wrappers-width-align));
+  max-height: 50px;
+  border: 1px darkslateblue solid;
+  /* margin: 0 auto; */
+  padding: var(--wrappers-paddings);
+  background-image: url(../../images/gerb.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  text-align: left;
+  font-family: "Bakbak", Roboto, monospace;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: rgb(0 51 109);
+}

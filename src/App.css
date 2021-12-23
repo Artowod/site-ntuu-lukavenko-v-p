@@ -1,0 +1,22 @@
+:root {
+  --wrappers-width: 728px;
+  --wrappers-width-align: -385px;
+  --wrappers-paddings: 20px;
+  --wrappers-bg-color: white;
+}
+.App {
+  padding: 20px;
+}
+
+.back {
+  z-index: -5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

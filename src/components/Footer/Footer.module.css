@@ -1,0 +1,14 @@
+.wrapper {
+  max-height: 50px;
+  border: 1px darkolivegreen solid;
+  background-color: var(--wrappers-bg-color);
+  text-align: center;
+  max-width: var(--wrappers-width);
+  margin: 0 auto;
+  padding: var(--wrappers-paddings);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
